@@ -11,6 +11,9 @@
 # production
 /build
 
+/gui
+/dist
+
 # misc
 .DS_Store
 .env.local
@@ -21,3 +24,43 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.config
+tags
+__pycache__
+*.pyc
+*.pid
+*.log
+*.swo
+*.swp
+*.pyc
+*.mo
+.env
+db.sqlite3
+pre_settings.py
+local_settings.py
+settings/*
+logs/*
+node_modules
+celerybeat-schedule
+static/*
+.idea/*
+.DS_Store
+venv/
+fort
+.vscode/
+# Unit testing related
+.tox
+.coverage
+.pytest_cache
+coverage.xml
+allure-results
+src/
+_trial_temp
+key_device*.json
+
+.tcache/
+
+dump.rdb
+
+local_settings.py
